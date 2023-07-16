@@ -1,0 +1,10 @@
+[package]
+name = "ether"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ethers = {version = "2.0", default-features = false, features = ["legacy"]}
+anyhow = { version = "1.0", default-features = false }
+eyre = { version = "0.6", default-features = false }
+tokio = {version = "1.29", features = ["full"]}
